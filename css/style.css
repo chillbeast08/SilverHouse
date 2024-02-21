@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: arial;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #8c8a8a;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+nav .image {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navlist {
+  margin-top: 80px;
+}
+
+.mainpic {
+  width: 100%;
+}
+.mainpic img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  margin-top: 37px;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2 {
+  color: #4581b7;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+p {
+  line-height: 27px;
+  text-align: left;
+  font-size: 16px;
+  color: #808080;
+}
+.content1 {
+  background: #f0f0f0;
+  max-width: 730px;
+  width: 100%;
+  padding: 50px 95px 51px 40px;
+}
+.content2 {
+  background: #f0f0f0;
+  max-width: 350px;
+  width: 100%;
+  padding: 50px 24px 51px 40px;
+}
+
+.tel {
+  padding-top: 27px;
+  padding-bottom: 54px;
+}
+footer .container {
+  margin-top: 30px;
+  background: #f0f0f0;
+  color: #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  padding: 15px 0px 15px 25px;
+}
+.callcenter {
+  padding: 21px 25px 46px 0px;
+}
+.callcenter a {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
